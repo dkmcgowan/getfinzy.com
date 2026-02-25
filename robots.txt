@@ -55,6 +55,4 @@ Disallow: /
 
 # END Cloudflare Managed Content
 
-# allow crawling everything by default
-User-agent: *
-Disallow:
+Sitemap: https://getfinzy.com/sitemap.xml

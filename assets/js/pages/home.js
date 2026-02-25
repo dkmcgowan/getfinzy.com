@@ -1,4 +1,4 @@
-﻿import {
+import {
   d as me,m as He,a as w,b as Se,k as pe,o as ee,f as g
 }
 from"../chunks/dom-events.js";
@@ -971,7 +971,7 @@ function Pa(l) {
     q:"What video player does Finzy use?",a:'mpv on most platforms, with ExoPlayer available on Android for HDR support and better performance. ExoPlayer also has libass support via <a href="https://github.com/peerless2012/libass-android" target="_blank" rel="noopener" class="text-accent hover:underline">libass-android</a>.'
   }
   , {
-    q:"Will Jellyfin block this app?",a:"Unlikely. We use the Jellyfin API with standard authentication methods."
+    q:"Is Finzy officially supported by Jellyfin?",a:"Finzy is a third-party client built on Jellyfin's open API. Jellyfin is open-source and welcomes third-party clients, so there are no restrictions on using Finzy with your server."
   }
   ];
   let o=N(null);

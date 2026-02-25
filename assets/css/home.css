@@ -41,13 +41,12 @@
 }
 
 .bento-grid.svelte-1dpem8h .bento-offline {
-  grid-column:2 / 3;
+  grid-column:2 / 4;
   grid-row:3 / 4
 }
 
 .bento-grid.svelte-1dpem8h .bento-watch {
-  grid-column:3 / 4;
-  grid-row:3 / 4
+  display:none
 }
 
 .bento-grid.svelte-1dpem8h .bento-speed {

@@ -956,10 +956,10 @@ function ka(l,{delay:t=0,duration:o=400,easing:u=_a,axis:h="y"}={}) {
 var $a=g('<p class="text-accent font-medium text-sm tracking-wide uppercase mb-3">FAQ</p> <h2 class="text-4xl md:text-5xl font-bold mb-4">Common questions</h2> <p class="text-text-muted text-lg mb-10 sm:mb-16 max-w-lg">Everything you need to know about Finzy.</p>',1),Aa=g('<div class="px-6 pb-4 text-text-muted text-sm leading-relaxed"><!></div>'),Ca=g('<div class="glass-card rounded-2xl"><button class="w-full px-6 py-4 flex items-center justify-between gap-4 text-left cursor-pointer"><span class="font-medium"> </span> <span class="flex-shrink-0 w-5 h-5 text-accent"><!></span></button> <!></div>'),Ma=g('<section class="px-6 py-10 sm:py-16 md:py-20 max-w-5xl mx-auto"><!> <div class="flex flex-col gap-2.5"></div></section>');
 function Pa(l) {
   const t=[ {
-    q:"Do I need Jellyfin account to stream remotely?",a:"No. The remote viewing checks are done client-side in the official Jellyfin apps, not on your server. Finzy connects directly to your server's API, so there are no such checks."
+    q:"Do I need a Jellyfin account to stream remotely?",a:"Jellyfin doesn\u2019t have centralized accounts \u2014 your account lives on your Jellyfin server. You just need a server with an account and network access (local or remote). Finzy connects directly to your server, so as long as you can reach it, you can stream."
   }
   , {
-    q:"Is Finzy free?",a:"Finzy is open-source and free to download from GitHub. The App Store and Play Store versions are paid (one-time purchase, price varies by region)."
+    q:"Is Finzy free?",a:"Yes! Finzy is completely free and plans to stay that way. We accept optional donations to help cover app store fees and development tools, but there is no cost to download or use Finzy."
   }
   , {
     q:"Does Finzy work on Apple TV?",a:"Not currently. Flutter (the framework Finzy is built with) doesn't support tvOS."

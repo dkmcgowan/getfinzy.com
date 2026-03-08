@@ -2289,6 +2289,10 @@
       width:calc(var(--spacing)*200)
     }
 
+    .md\:py-20 {
+      padding-block:calc(var(--spacing)*20)
+    }
+
     .md\:py-32 {
       padding-block:calc(var(--spacing)*32)
     }

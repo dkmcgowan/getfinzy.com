@@ -1,4 +1,4 @@
-﻿import {
+import {
   d as me,m as He,a as w,b as Se,k as pe,o as ee,f as g
 }
 from"../chunks/dom-events.js";
@@ -984,7 +984,7 @@ function Pa(l) {
   O(c,21,()=>t,W,(p,s,v)=>{E(p,{delay:v*50,children:(x,_)=>{var P=Ca(),m=a(P);m.__click=()=>u(v);var y=a(m),i=a(y,!0);e(y);var $=n(y,2),k=a($);{var L=M=>{B(M,{get src(){return wt},class:"w-5 h-5"})},H=M=>{B(M,{get src(){return gt},class:"w-5 h-5"})};Q(k,M=>{r(o)===v?M(L):M(H,!1)})}e($),e(m);var S=n(m,2);{var T=M=>{var z=Aa(),b=a(z);lt(b,()=>r(s).a),e(z),nt(3,z,()=>ka,()=>({duration:200})),w(M,z)};Q(S,M=>{r(o)===v&&M(T)})}e(P),F(()=>{I(m,"aria-expanded",r(o)===v),K(i,r(s).q)}),w(x,P)},$$slots:{default:!0}})}),e(c),e(h),w(l,h)
 }
 pe(["click"]);
-var za=g('<footer class="py-10 sm:py-16 px-6"><div class="max-w-5xl mx-auto"><div class="h-px bg-gradient-to-r from-transparent via-border to-transparent mb-8 sm:mb-12"></div> <div class="flex flex-col sm:flex-row items-center justify-between gap-8"><div class="flex items-center gap-2.5"><!> <span class="font-medium text-text-muted">Finzy</span></div> <nav class="flex items-center gap-8 text-sm text-text-muted"><a href="https://github.com/dkmcgowan/finzy" target="_blank" rel="noopener noreferrer" class="hover:text-text transition-colors">GitHub</a> <a href="/privacy" class="hover:text-text transition-colors">Privacy Policy</a></nav></div></div></footer>');
+var za=g('<footer class="py-10 sm:py-16 px-6"><div class="max-w-5xl mx-auto"><div class="h-px bg-gradient-to-r from-transparent via-border to-transparent mb-8 sm:mb-12"></div> <div class="flex flex-col sm:flex-row items-center justify-between gap-8"><div class="flex items-center gap-2.5"><!> <span class="font-medium text-text-muted">Finzy</span></div> <nav class="flex items-center gap-8 text-sm text-text-muted"><a href="https://github.com/dkmcgowan/finzy" target="_blank" rel="noopener noreferrer" class="hover:text-text transition-colors">GitHub</a> <a href="https://paypal.me/dkmcgowan" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 hover:text-text transition-colors" title="Support development — optional and much appreciated"><svg class="w-4 h-4 opacity-80" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944 3.72a.77.77 0 0 1 .76-.646h5.782c2.12 0 3.657.44 4.613 1.314.96.877 1.436 2.14 1.436 3.787 0 1.35-.21 2.54-.63 3.57-.21.51-.465.99-.765 1.43-.3.44-.645.82-1.035 1.14-.39.32-.81.58-1.26.77-.45.19-.93.33-1.44.42-.51.09-1.02.13-1.53.13H9.18a.77.77 0 0 0-.765.66l-.3 1.92-.045.285a.475.475 0 0 1-.465.39z"/></svg>Support</a> <a href="/privacy" class="hover:text-text transition-colors">Privacy Policy</a></nav></div></div></footer>');
 function Va(l) {
   var t=za(),o=a(t),u=n(a(o),2),h=a(u),d=a(h);
   ve(d,{class:"w-7 h-7"}),D(2),e(h),D(2),e(u),e(o),e(t),w(l,t)

@@ -959,7 +959,10 @@ function Pa(l) {
     q:"Do I need a Jellyfin account to stream remotely?",a:"Jellyfin doesn\u2019t have centralized accounts \u2014 your account lives on your Jellyfin server. You just need a server with an account and network access (local or remote). Finzy connects directly to your server, so as long as you can reach it, you can stream."
   }
   , {
-    q:"Is Finzy free?",a:"Yes! Finzy is completely free and plans to stay that way. We accept optional donations to help cover app store fees and development tools, but there is no cost to download or use Finzy."
+    q:"Is Finzy free?",a:"Yes! Finzy is completely free and plans to stay that way. There's no cost to download or use Finzy. If you'd like to support development, you can leave a tip via <a href=\"https://paypal.me/dkmcgowan\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-accent hover:underline\">PayPal</a> — optional and much appreciated."
+  }
+  , {
+    q:"How can I support development?",a:"If you enjoy Finzy, you can leave a tip via <a href=\"https://paypal.me/dkmcgowan\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-accent hover:underline\">PayPal</a>. It's optional and much appreciated — it helps cover app store fees and development tools."
   }
   , {
     q:"Does Finzy work on Apple TV?",a:"Not currently. Flutter (the framework Finzy is built with) doesn't support tvOS."
